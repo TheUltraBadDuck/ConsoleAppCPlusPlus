@@ -1,0 +1,20 @@
+╔══════════════════════════════════╗
+║            Move left:            ║
+║           Move right:            ║
+║          Rotate left:            ║
+║         Rotate right:            ║
+║                                  ║
+║            Soft drop:            ║
+║            Hard drop:            ║
+║                                  ║
+║           Hold block:            ║
+║                                  ║
+║                Sound:            ║
+║                Music:            ║
+║                                  ║
+║   Draw instant block:            ║
+║                                  ║
+║                                  ║
+║                                  ║
+║                                  ║
+╚══════════════════════════════════╝

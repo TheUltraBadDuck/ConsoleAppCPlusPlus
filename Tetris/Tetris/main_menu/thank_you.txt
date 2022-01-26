@@ -1,0 +1,9 @@
+╔════════════════════════════════════════════╗
+║ Thank you for playing this game            ║
+║ Actually, I am the single author of this.  ║
+║ This game is almost similar to the modern  ║
+║ Tetris (although I haven't played much yet)║
+║                                            ║
+║ See me more by pressing Q                  ║
+║ Press anything to leave                    ║
+╚════════════════════════════════════════════╝
