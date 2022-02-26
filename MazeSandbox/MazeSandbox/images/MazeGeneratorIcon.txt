@@ -1,0 +1,50 @@
+ O-O--O  
+       \ 
+O   O   O
+       / 
+  O---O  
+  Random DFS   
+Generate by traversing the whole map with Depth-first search
+┌─┐   ┌─┐
+│ └─┐ │ │
+└───┘ └─┘
+    ┌───┐
+    └───┘
+Random Kruskal 
+Generate by connecting randomly two units
+O - O    
+|        
+O     O  
+|        
+O       O
+  Random Prim  
+Generate by spreading the node
+    O    
+    ^    
+O < ? > O
+    v    
+    O    
+Aldous - Broder
+Generate like Random DFS but freely move
+ v       
+┌─┐┌─┐┌─┐
+│0││1││1│
+└─┘└─┘└─┘
+ ^       
+ Hunt and kill 
+Generate like Random DFS but it will hunt from up to down
+    O    
+   / \   
+  O   O  
+ / \ / \ 
+O  O O  O
+  Binary tree  
+Generate by calling top-left unit as parent and the rest are children
+┌────┐┌─┐
+└────┘└─┘
+ v     v 
+┌─┐   ┌─┐
+└─┘   └─┘
+     Eller     
+A really complicated algorithm
+

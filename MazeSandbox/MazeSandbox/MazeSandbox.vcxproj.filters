@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Maze Generator">
+      <UniqueIdentifier>{84534dd1-5689-4c40-8750-a228f8c63c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maze Generator">
+      <UniqueIdentifier>{2df09b1e-5771-486e-9bd3-39c4039f2b24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Support">
+      <UniqueIdentifier>{c764f03b-24e4-4d38-9b89-962de6441d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drawing">
+      <UniqueIdentifier>{36b2315b-e449-40cf-8663-a0831035865f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maze Solving">
+      <UniqueIdentifier>{13c8f827-cff4-49c1-8d93-44e7b95bc36c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Path Finding">
+      <UniqueIdentifier>{bd110ea6-d8eb-472d-bc97-ddf01ec3eb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Maze Solving">
+      <UniqueIdentifier>{08c7b151-0f4e-47ac-b544-00ce650f9cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Path Finding">
+      <UniqueIdentifier>{063c42e1-5196-4ab0-87b3-311f3277bb11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDFSMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomKruskalMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>Source Files\Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomPrimMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="HuntAndKillMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFinding.cpp">
+      <Filter>Source Files\Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="DFSSolver.cpp">
+      <Filter>Source Files\Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="BFSSolver.cpp">
+      <Filter>Source Files\Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraSolver.cpp">
+      <Filter>Source Files\Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarSolver.cpp">
+      <Filter>Source Files\Path Finding</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeSolving.cpp">
+      <Filter>Source Files\Maze Solving</Filter>
+    </ClCompile>
+    <ClCompile Include="WallFollowing.cpp">
+      <Filter>Source Files\Maze Solving</Filter>
+    </ClCompile>
+    <ClCompile Include="AldousBroderMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="EllerMaze.cpp">
+      <Filter>Source Files\Maze Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Pledge.cpp">
+      <Filter>Source Files\Maze Solving</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Maze.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDFSMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomKruskalMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>Header Files\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files\Support</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomPrimMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>Header Files\Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="DFSSolver.h">
+      <Filter>Header Files\Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="BFSSolver.h">
+      <Filter>Header Files\Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraSolver.h">
+      <Filter>Header Files\Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarSolver.h">
+      <Filter>Header Files\Path Finding</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeSolving.h">
+      <Filter>Header Files\Maze Solving</Filter>
+    </ClInclude>
+    <ClInclude Include="WallFollowing.h">
+      <Filter>Header Files\Maze Solving</Filter>
+    </ClInclude>
+    <ClInclude Include="AldousBroderMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="HuntAndKillMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="EllerMaze.h">
+      <Filter>Header Files\Maze Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Pledge.h">
+      <Filter>Header Files\Maze Solving</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="images\interface.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="saved_data\Hello.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

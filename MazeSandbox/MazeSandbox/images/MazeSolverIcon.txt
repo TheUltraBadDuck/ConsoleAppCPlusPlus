@@ -1,0 +1,53 @@
+ O-O--O  
+       \ 
+O   O   O
+       / 
+  O---O  
+     DFS       
+Solve by traversing the whole map with Depth-first search
+ O-O--O  
+/   \  \ 
+O   O   O
+ \       
+  O   O  
+     BFS       
+Solve by traversing the whole map with Breadth-first search
+   +3    
+ ____|\  
+|____  ) 
+     |/  
+         
+   Dijsktra    
+Solve by adding distance to start point g(n) value
+   ┌─┐   
+--.│ │.->
+  |│ │|  
+  |└─┘|  
+   `-'   
+    A star     
+Solve by adding both g(n) and heuristic h(n) value
+┌─┐   ┌─┐
+│ │   │ │
+│ │┌─┐│ │
+│ │└─┘│ │
+└─┘   └─┘
+ Wall Follower 
+Solve by following the wall
+┌─┐   ┌─┐
+│ │ 0 │ │
+│ │┌─┐│ │
+│ │└─┘│ │
+└─┘180└─┘
+    Pledge     
+Solve by following wall until the degree gets +0 radian (left)
+┌─┐ X ┌─┐
+└─┘   └─┘
+ \  O  \ 
+┌─┐   ┌─┐
+└─┘   └─┘
+    Trémaux    
+Solve by marking each crossroad
+
+
+
+
